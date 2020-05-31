@@ -4,8 +4,6 @@ A CRUD dashboard for add, edit, remove pokemons made with [ReactJS](https://pt-b
 
 The frontend for it can be found [here](https://github.com/luiz-ortega/pokemon_client).
 
-The prototype/wireframe can be found [here](https://www.figma.com/file/8kQRDz3xeK1MyFaxTRlylC/RedFox?node-id=0%3A1).
-
 ## Project setup
 ```
 npm install
