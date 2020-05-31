@@ -1,6 +1,6 @@
 # Pokedex API
 
-A CRUD dashboard for add, edit, remove pokemons made with [NodeJS](https://nodejs.org/en/). 
+A dashboard for add, edit, remove and see details of pokemons made with [NodeJS](https://nodejs.org/en/). 
 
 The frontend for it can be found [here](https://github.com/luiz-ortega/pokemon_client).
 
