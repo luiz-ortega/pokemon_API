@@ -12,7 +12,6 @@ npm install
 ## Configure the database credentials in database.js file
 ```
 src/config/database.js 
-
 ````
 
 ### Compiles and hot-reloads for development
