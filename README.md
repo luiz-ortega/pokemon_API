@@ -11,7 +11,12 @@ npm install
 
 ## Configure the database credentials in database.js file
 ```
-src/config/database.js 
+src/config/database.js
+````
+
+## Run migrations
+```
+npx sequelize db:migrate 
 ````
 
 ### Compiles and hot-reloads for development
