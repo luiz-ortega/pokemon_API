@@ -26,12 +26,12 @@ npm run dev
 
 ### Methods
 
-#### For Pokemon
+#### For Pokemon:
 - GET    - /pokemons ------> to list pokemons
 - DELETE - pokemons/:id ---> to delete pokemons
 - PUT    - /pokemons/:id --> to update pokemons
 - POST   - /pokemons ------> to store pokemons
- - Body example:
+  - Body example:
 ```
 {
   "name": "Bullbasaur",
@@ -65,7 +65,7 @@ npm run dev
   "weather_id_2": 3
 }
 ```
-##### For selects
+##### For selects:
 - GET - /aquireables ------> to list Aquireables
 - GET - /evolution_stages ------> to list Evolution Stages
 - GET - /generations ------> to list Generations
