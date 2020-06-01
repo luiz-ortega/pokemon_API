@@ -31,7 +31,7 @@ npm run dev
 - DELETE - pokemons/:id ---> to delete pokemons
 - PUT    - /pokemons/:id --> to update pokemons
 - POST   - /pokemons ------> to store pokemons
-  - Body example:
+  - Body example for PUT and POST:
 ```
 {
   "name": "Bullbasaur",
@@ -66,14 +66,14 @@ npm run dev
 }
 ```
 ##### For selects:
-- GET - /aquireables ------> to list Aquireables
+- GET - /aquireables -----------> to list Aquireables
 - GET - /evolution_stages ------> to list Evolution Stages
-- GET - /generations ------> to list Generations
-- GET - /hatchables ------> to list Hatchables
-- GET - /legendaries ------> to list Legendaries
-- GET - /raidables ------> to list Raidables
-- GET - /types ------> to list Types
-- GET - /weathers ------> to list Weathers
+- GET - /generations -----------> to list Generations
+- GET - /hatchables ------------> to list Hatchables
+- GET - /legendaries -----------> to list Legendaries
+- GET - /raidables -------------> to list Raidables
+- GET - /types -----------------> to list Types
+- GET - /weathers --------------> to list Weathers
 
 
 ## License
