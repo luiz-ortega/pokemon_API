@@ -26,16 +26,16 @@ npm run dev
 
 ### Methods
 
-# For Pokemon
+#### For Pokemon
 - GET    - /pokemons ------> to list pokemons
 - DELETE - pokemons/:id ---> to delete pokemons
 - PUT    - /pokemons/:id --> to update pokemons
 - POST   - /pokemons ------> to store pokemons
- - Accepts the following JSON on body:
+ - Body example:
 ```
 {
-	"name": "Bullbasaur",
-	"pokedex_number": 1,
+  "name": "Bullbasaur",
+  "pokedex_number": 1,
   "img_name": "",
   "evolved": true,
   "cross_gen": false,
@@ -48,24 +48,24 @@ npm run dev
   "shiny": true,
   "nest": true,
   "new": true,
-	"not_gettable": true,
+  "not_gettable": true,
   "future_evolve": true,
-	"hundred_percent_cp_40": 123,
+  "hundred_percent_cp_40": 123,
   "hundred_percent_cp_39": 123,
   "evolution_stage_id": 5,
   "family_id": null,
   "raidable_id": 2,
   "hatchable_id": 4,
- 	"aquireable_id": 3,
-	"legendary_id":  2,
- 	"generation_id": 1,
-	"type_id_1": 1,
-	"type_id_2": 5,
-	"weather_id_1": 1,
-	"weather_id_2": 3
+  "aquireable_id": 3,
+  "legendary_id":  2,
+  "generation_id": 1,
+  "type_id_1": 1,
+  "type_id_2": 5,
+  "weather_id_1": 1,
+  "weather_id_2": 3
 }
 ```
-# For selects
+##### For selects
 - GET - /aquireables ------> to list Aquireables
 - GET - /evolution_stages ------> to list Evolution Stages
 - GET - /generations ------> to list Generations
